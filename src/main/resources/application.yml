@@ -3,7 +3,9 @@ spring:
     name: ELK-STACK-EXAMPLE
 
 server:
-  port: 9898
+  port: 8080
 
 logging:
-  file: C:/Users/basan/Desktop/logs/elk-stack.log
+  file:
+    name: C:/Users/admin/Desktop/logs/elk-stack.log
+
